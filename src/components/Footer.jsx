@@ -38,7 +38,9 @@ export default function Footer({ onOpenModal }) {
             <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', fontSize: '0.85rem', color: 'var(--text-dim)' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <Mail size={15} color="var(--cyan-400)" />
-                <span>contact@risestack.tech</span>
+                <a href="mailto:hello@risestack.in" style={{ color: 'var(--text-secondary)', textDecoration: 'none' }}>
+                  hello@risestack.in
+                </a>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <Globe size={15} color="var(--violet-400)" />

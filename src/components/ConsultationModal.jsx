@@ -214,6 +214,13 @@ export default function ConsultationModal({ isOpen, onClose, initialService = ''
             <span>{submitting ? 'Submitting...' : 'Schedule Architecture Review'}</span>
             <ArrowRight size={16} />
           </button>
+
+          <div style={{ textAlign: 'center', fontSize: '0.82rem', color: 'var(--text-dim)', marginTop: '4px' }}>
+            Prefer direct email? Write to us at{' '}
+            <a href="mailto:hello@risestack.in" style={{ color: 'var(--cyan-400)', textDecoration: 'none', fontWeight: 600 }}>
+              hello@risestack.in
+            </a>
+          </div>
         </form>
       </div>
     </div>
