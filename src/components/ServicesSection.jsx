@@ -115,3 +115,4 @@ export default function ServicesSection({ onOpenModal }) {
     </section>
   );
 }
+

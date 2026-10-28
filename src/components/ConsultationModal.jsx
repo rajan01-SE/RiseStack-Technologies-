@@ -219,3 +219,4 @@ export default function ConsultationModal({ isOpen, onClose, initialService = ''
     </div>
   );
 }
+

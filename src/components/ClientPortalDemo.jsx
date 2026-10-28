@@ -280,3 +280,4 @@ export default function ClientPortalDemo({ currency = 'USD', onExitPortal, onTri
     </div>
   );
 }
+
