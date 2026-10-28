@@ -1,3 +1,10 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
 import './index.css';
-import '../dist/assets/index-CiBgh2yV.js';
 
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
